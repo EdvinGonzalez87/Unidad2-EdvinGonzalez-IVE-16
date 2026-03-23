@@ -15,6 +15,10 @@
         n5 = Convert.ToInt32(Console.ReadLine());
 
         double promedio = (n1+n2+n3+n4+n5)/5;
+        if (promedio >= 70)
+            Console.WriteLine("Estudiante aprobado");
+        else
+            Console.WriteLine("Estudiante reprobado");
         Console.WriteLine("La Materia:" + materia);
         Console.WriteLine("El Promedio:" + promedio);
     }
